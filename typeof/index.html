@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="typeof.js"></script>
+<script>
+    var tempNum=1,
+        tempStr="2",
+        tempBool=true,
+        tempAry=[1,2,3,5],
+        tempFun=function (e) {
+            console.log("2");
+        },
+        tempObj={a:1,b:2,c:3},
+        tempExp=/\d+/,
+        tempDate=new Date();
+    console.log(typeOf(tempNum));
+    console.log(typeOf(tempStr));
+    console.log(typeOf(tempBool));
+    console.log(typeOf(tempAry));
+    console.log(typeOf(tempFun));
+    console.log(typeOf(tempObj));
+    console.log(typeOf(tempExp));
+    console.log(typeOf(tempDate));
+    console.log(typeOf(undefined));
+    console.log(typeOf(null));
+</script>
+</body>
+</html>
